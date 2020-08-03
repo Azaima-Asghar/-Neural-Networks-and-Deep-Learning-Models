@@ -36,3 +36,5 @@ There were 41 input features. I had chosen to reflect that number in the number 
 The model performance was decent with an  accuracy of 73.2%. This is below the desired threshold of 75%. I attempted fitting models with more neurons and more hidden layers, different activation functions, and different optimizer algorithms but the accuracy of the model did not increase. 
 
 ##  *If you were to implement a different model to solve this classification problem, which would you choose? Why?* 
+
+After looking at the performance of the model I tried other models such as random forest classifier and the logistic regression with different solvers.Random forest classifier gave an accuracy score of 71.8%. logistic regression gave an accuracy score of 70.6% with solver newton-cg where as the solver lbfgs performed worse.I would consider the random forest classifier as the model's accuracy was very close to the accuracy of the initial model and running the random forest classifier model is a lot faster than the neural network.
