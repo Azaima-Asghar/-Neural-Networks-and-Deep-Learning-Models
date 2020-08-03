@@ -29,7 +29,7 @@ Bek has decided that this problem is too complicated for the statistical and mac
 
 ## *How many neurons and layers did you select for your neural network model? Why?*
 
-There were 41 input features. I had chosen to reflect that number in the number of neurons used. I also decided to use 2 hidden layers as there were a lot more data to filter through. As well, by adding another layer, it would allow the model to better classify the data and with higher accuracy. The number of neurons in the first layer were 28 and the second layer had 13 neurons.
+There were 41 input features.I decided to use 2 hidden layers as there were a lot more data to filter through. As well, by adding another layer, it would allow the model to better classify the data and with higher accuracy. The number of neurons in the first layer were 28 and the second layer had 13 neurons.
 
 ## *Were you able to achieve the target model performance? What steps did you take to try and increase model performance?*
 
