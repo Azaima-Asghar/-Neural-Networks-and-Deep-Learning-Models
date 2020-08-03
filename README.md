@@ -14,3 +14,25 @@ Bek has decided that this problem is too complicated for the statistical and mac
 
 ## *Resources*
 
+* Data Source: charity_data.csv present in the      Resouces folder above.
+* Open-source distribution software Anaconda and the Jupiter notebook.
+* Python libraries: Sklearn, Pandas, Tensorflow.
+* Visual Studio Code.
+
+## *Data Preprocessing*
+
+* Removed the *NAME and EIN* columns.
+* Checked if there were any null values.
+* Binned and encoded the *APPLICATION_TYPE and CLASSIFICATION*  columns.
+* One Hot encoded the rest of the columns that were identified as features.
+* Checked if we there were any unique values.
+
+## *How many neurons and layers did you select for your neural network model? Why?*
+
+There were 41 input features. I had chosen to reflect that number in the number of neurons used. I also decided to use 2 hidden layers as there were a lot more data to filter through. As well, by adding another layer, it would allow the model to better classify the data and with higher accuracy. The number of neurons in the first layer were 28 and the second layer had 13 neurons.
+
+## *Were you able to achieve the target model performance? What steps did you take to try and increase model performance?*
+
+The model performance was decent with an  accuracy of 73.2%. This is below the desired threshold of 75%. I attempted fitting models with more neurons and more hidden layers, different activation functions, and different optimizer algorithms but the accuracy of the model did not increase. 
+
+##  *If you were to implement a different model to solve this classification problem, which would you choose? Why?* 
