@@ -25,7 +25,7 @@ Bek has decided that this problem is too complicated for the statistical and mac
 * Checked if there were any null values.
 * Binned and encoded the *APPLICATION_TYPE and CLASSIFICATION*  columns.
 * One hot encoded the rest of the columns that were identified as features.
-* Checked if we there were any unique values.
+* Checked if there were any unique values.
 
 ## *How many neurons and layers did you select for your neural network model? Why?*
 
